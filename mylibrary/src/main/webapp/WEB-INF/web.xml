@@ -4,4 +4,14 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>MyLibServ</servlet-name>
+  	<display-name>MyLibServ</display-name>
+  	<description></description>
+  	<servlet-class>com.lib.MyLibServ</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>MyLibServ</servlet-name>
+  	<url-pattern>/MyLibServ</url-pattern>
+  </servlet-mapping>
 </web-app>
