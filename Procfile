@@ -1,1 +1,1 @@
-web: java -jar target/mylibrary-1.0.jar
+web: java -jar $JAVA_OPTS target/mylibrary-1.0.jar
