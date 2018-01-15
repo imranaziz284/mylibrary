@@ -24,6 +24,16 @@
     
   </dependencies>
   <build>
-    <finalName>mylibrary</finalName>
+  <plugins>
+<plugin>
+			<groupId>org.apache.tomcat.maven</groupId>
+			<artifactId>tomcat7-maven-plugin</artifactId>
+			<version>2.2</version>
+			<configuration>
+				<path>/MyLibServ</path>
+			</configuration>
+		  </plugin>
+		</plugins>
+	    <finalName>mylibrary</finalName>
   </build>
 </project>
